@@ -45,6 +45,7 @@ This system consists of the following pages:
 - Created a responsive design suitable for both desktop and mobile devices.
   
 ## Interaction with the Website & Usage of the Web Application
+### When you click the Dashboard
 
 ### Dashboard
 - Displays key metrics and features overview.
