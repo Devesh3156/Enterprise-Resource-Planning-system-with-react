@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Enterprise-Resource-Planning-system-with-react/static/css/main.32b41f2f.css",
+    "main.js": "/Enterprise-Resource-Planning-system-with-react/static/js/main.81728739.js",
+    "index.html": "/Enterprise-Resource-Planning-system-with-react/index.html",
+    "main.32b41f2f.css.map": "/Enterprise-Resource-Planning-system-with-react/static/css/main.32b41f2f.css.map",
+    "main.81728739.js.map": "/Enterprise-Resource-Planning-system-with-react/static/js/main.81728739.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32b41f2f.css",
+    "static/js/main.81728739.js"
+  ]
+}
