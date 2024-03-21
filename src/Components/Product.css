@@ -1,0 +1,150 @@
+/* Product.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+.add-product,
+.product-table {
+  width: 85%;
+  margin-left: 190px;
+}
+
+
+.product-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+  margin-left: 190px;
+}
+
+.add-product-heading {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.add-product {
+  margin-bottom: 20px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.add-button,
+.add-button-save {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-button-save {
+  margin-top: 10px;
+}
+
+.product-table {
+  overflow-x: auto;
+  margin-top: 50px;
+  text-align: center;
+  width: 85%;
+  margin-left: 190px;
+  justify-content: center;
+}
+
+.product-header,
+.product-row {
+  display: flex;
+}
+.product-header{
+  font-weight: bold;
+}
+.product-cell {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.product-cell:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.product-cell input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.product-cell button {
+  padding: 5px 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.save {
+  background-color: #687;
+}
+
+.product-button {
+  padding: 5px 10px;
+  background-color: rgb(107, 58, 28);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .product-cell {
+    padding: 5px;
+    font-size: 14px;
+  }
+  .product-cell button {
+    margin: 2px;
+  }
+
+  .product-heading {
+    font-size: 20px;
+  }
+
+  .add-product-heading {
+    font-size: 16px;
+  }
+
+  .add-button,
+  .add-button-save {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .product-cell input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+}
+

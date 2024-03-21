@@ -1,0 +1,45 @@
+/* App.css */
+
+/* Navbar styles */
+.navbar {  
+  position: fixed;  
+  
+  left: 0; /* Adjusted to left */  
+  height: 100%; /* Set height to cover full vertical size with space from top and bottom */ 
+  background-color: #907070;  
+  padding: 20px;  
+ 
+  overflow-y: auto; /* Enable vertical scrolling if content exceeds height */ 
+}
+.pi{
+  height:20px;
+  margin-top: 1px;
+  margin-right: 5px;
+  color: #fff;
+}
+/* List styles */
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column; /* Change to vertical direction */
+  align-items: flex-start; /* Align items to the left */
+}
+
+/* Navbar item styles */
+.nav-item {
+  margin-bottom: 15px; /* Adjusted spacing between items for better readability */
+}
+
+/* Navbar link styles */
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Navbar link hover styles */
+.nav-link:hover {
+  text-decoration: underline;
+}

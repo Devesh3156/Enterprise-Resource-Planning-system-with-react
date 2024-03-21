@@ -1,0 +1,80 @@
+/* Container */
+.container {
+  display: flex;
+  background-color:pink;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  order: -1; /* Move the sidebar to the left */
+}
+
+/* Title */
+.title {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #333;
+  text-align: center;
+  padding-left: 150px;
+}
+
+/* Metrics Container */
+.metricsContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+/* Metric Card */
+.metric {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  margin-left: 100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.metric:hover {
+  transform: translateY(-5px);
+}
+
+/* Metric Text */
+.metric h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.metric p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Media Query for Small Screens */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    margin-bottom: 20px;
+    order: 0; /* Reset the order for small screens */
+  }
+}
