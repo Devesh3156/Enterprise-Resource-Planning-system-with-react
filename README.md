@@ -15,7 +15,7 @@ git clone <repository-url>
 2. **Navigate to the Project Directory**:
 
 ```bash
-   cd Devesh-ERP
+   cd ERP-system
    ```
 3. **Install Dependencies**:
 
